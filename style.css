@@ -77,7 +77,12 @@
      color: green;
      display: inline;
      padding: 5px 15px;
-     border-radius: 2px;
+     border-radius: 30px;
+ }
+ #banner .white-text {
+  color: white;
+  padding: 3px;
+    
  }
 
  #banner .green-text {
@@ -93,6 +98,11 @@
      width: 70%;
      max-width: 1200px;
      margin: 0 auto;
+ }
+ .skills-heading {
+    margin:5px
+    padding: 0;
+    text-align: center;
  }
 
  #skills .skills-box {
@@ -111,6 +121,7 @@
      background-color: red;
      border-radius: 70%;
      padding: 5px;
+     justify-items: center;
  }
  #brain {
     display: flex;
@@ -133,20 +144,28 @@
     line-height: 1.7;
     margin-bottom: 20px;
 }
-.list ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.list li::before{
+.list {
+    list-style:none;
     position: absolute;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
-
-    
-    
-    
-    
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
