@@ -56,7 +56,7 @@
  }
 
  .nav-btn a:hover {
-     background-color: #276749;
+     background-color: white;
  }
 
  #banner .image {
@@ -90,7 +90,7 @@
  }
 
  #banner .banner-container p {
-     margin: 20px 0;
+     margin=40px;
  }
 
  #skills {
@@ -149,6 +149,31 @@
     position: absolute;
     align-items: center;
     justify-content: center;
+}
+
+.think-container {
+   justify-items: center;
+   box-sizing: border-box;
+   margin: 5%;
+   padding: 30px;
+   background-color: #f6f4f2;
+
+}
+.think-container button {
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    margin: 1px;
+    display: flex;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+footer {
+
 }
 
 
