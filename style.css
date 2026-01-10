@@ -163,25 +163,38 @@
     text-align: center;
     padding: 3px;
     display: flex;
-    margin: 1px;
-    display: flex;
     background-color:green;
     margin: 20px;
     padding: 10px;
     justify-content:space-between ;
-    align-items: center;
+    
 }
 
-footer {
-
+footer{ 
+    background-color: rgb(40, 40, 113);
+   
+}
+.footer-container{
+          width: 15%;
+          max-width: 1220px;
+        }
+.footer-container.logo {
+   margin-top: 120px;
+   padding-top: 50px;
+   padding-left: 100px;
 }
 
-
-
-
-
-
-
+.footer-container.social{
+     display: flex;
+     justify-content: flex-end;
+     color: white;
+     margin-right: 150px;
+}
+.footer-container.icons {
+    display: flex;
+    justify-items: flex-end;
+}
+           
 
 
 
