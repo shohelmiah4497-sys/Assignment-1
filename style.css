@@ -13,7 +13,7 @@
      align-items: center;
 
  }
- }
+ 
 
 
  body {
@@ -49,17 +49,16 @@
  .button {
      background-color: #2f855a;
      padding: 10px 18px;
-     font-size: 15px;
-     color: white;
+      color: white;
      border: none;
      border-radius: 3px;
- }
+  }
 
  .nav-btn a:hover {
      background-color: white;
  }
 
- #banner .image {
+ .banner img {
      width: 100%;
      position: relative;
 
@@ -90,9 +89,27 @@
  }
 
  #banner .banner-container p {
-     margin=40px;
+     margin: 10px;
  }
+ .banner-container .button fa-solid{
+    text-align: center;
+     padding: 9px;
+     display: flex;
+    flex-direction: row-reverse;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+    justify-content:space-between ;
+ 
+}
 
+ 
+button.btn {
+    font-weight: 300;
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
  #skills {
      padding-top: 130px;
      width: 70%;
@@ -101,7 +118,7 @@
  }
  .skills-heading {
     margin:5px
-    padding: 0;
+    padding: 5px;
     text-align: center;
  }
 
@@ -161,8 +178,9 @@
 }
 .think-container button {
     text-align: center;
-    padding: 3px;
+    padding: 9px;
     display: flex;
+    flex-direction: row-reverse;
     background-color:green;
     margin: 20px;
     padding: 10px;
@@ -170,33 +188,49 @@
     
 }
 
-footer{ 
-    background-color: rgb(40, 40, 113);
-   
-}
-.footer-container{
-          width: 15%;
-          max-width: 1220px;
-        }
-.footer-container.logo {
-   margin-top: 120px;
-   padding-top: 50px;
-   padding-left: 100px;
-}
-
-.footer-container.social{
-     display: flex;
-     justify-content: flex-end;
-     color: white;
-     margin-right: 150px;
-}
-.footer-container.icons {
+.footer-top {
+    background: rgb(37, 37, 75);
     display: flex;
-    justify-items: flex-end;
+    justify-content: space-between;
+    padding: 50px 30px;
 }
-           
+.social h4{
+    color: white;
+}
 
+.social ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
+}
+.social ul li {
+    list-style: none;
+    width: 80px;
+}
+.social ul li a {
+    text-align: center;
+}
+.social ul li a img{
+    max-width: 100%;
+    width: 50px;
+}
+footer {
+    background: rgb(37, 37, 75);
+}
+.footer-bottom {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.footer-bottom hr{
+     width: 90%;
+     margin: 0 auto;
+}
+.footer-bottom p{
+    padding: 14px 10px;
+    font-size: 14px;
+}
 
 
 
